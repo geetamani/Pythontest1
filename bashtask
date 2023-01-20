@@ -1,0 +1,9 @@
+log file is there server1.gz write a bash to read log data look for error lines show the last 5 lines on stderr
+unzip server1.gz 
+tail  -5 server1.gz
+# !/bin/bash
+Value = ‘cat read _server1.gz’
+Echo “$value”
+Linenos=($(grep – n ERROR $file | grep Exception | 
+| tail -5))
+
